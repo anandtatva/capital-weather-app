@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen : Search Country renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Enter Country Name"
+    placeholderTextColor="gray"
+    style={
+      Object {
+        "borderColor": "#000",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "paddingHorizontal": 10,
+        "paddingVertical": 5,
+      }
+    }
+    testID="Name-Input"
+    value=""
+  />
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "marginVertical": 20,
+        "opacity": 0.8,
+        "paddingVertical": 10,
+      }
+    }
+    testID="Search-Country-Button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "textAlign": "center",
+          },
+          Object {},
+        ]
+      }
+    >
+      Search Country
+    </Text>
+  </View>
+</View>
+`;

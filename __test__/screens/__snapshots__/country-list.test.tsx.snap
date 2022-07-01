@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen : Country List Countries should be render correctly 1`] = `
+<View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "capital": "Diego Garcia",
+          "flag": "https://flagcdn.com/io.svg",
+          "latlng": Array [
+            -6,
+            71.5,
+          ],
+          "population": 3000,
+        },
+        Object {
+          "capital": "New Delhi",
+          "flag": "https://flagcdn.com/in.svg",
+          "latlng": Array [
+            20,
+            77,
+          ],
+          "population": 1380004385,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "padding": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://flagcdn.com/io.svg",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 50,
+                  "height": 25,
+                  "width": 25,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="Capital-0"
+            >
+              Capital: 
+              Diego Garcia
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="Population-0"
+            >
+              Population: 
+              3000
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="LatLng-0"
+            >
+              LatLng: 
+              -6,71.5
+            </Text>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#FFF",
+                  "marginVertical": 5,
+                  "opacity": 1,
+                  "paddingVertical": 10,
+                }
+              }
+              testID="Captal-Weather-Button-0"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFF",
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "#000",
+                    },
+                  ]
+                }
+              >
+                Captal Weather
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#FFF",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "flexDirection": "row",
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "padding": 5,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://flagcdn.com/in.svg",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 50,
+                  "height": 25,
+                  "width": 25,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="Capital-1"
+            >
+              Capital: 
+              New Delhi
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="Population-1"
+            >
+              Population: 
+              1380004385
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FFF",
+                  "lineHeight": 20,
+                }
+              }
+              testID="LatLng-1"
+            >
+              LatLng: 
+              20,77
+            </Text>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#FFF",
+                  "marginVertical": 5,
+                  "opacity": 1,
+                  "paddingVertical": 10,
+                }
+              }
+              testID="Captal-Weather-Button-1"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFF",
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "#000",
+                    },
+                  ]
+                }
+              >
+                Captal Weather
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Screen : Country List renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

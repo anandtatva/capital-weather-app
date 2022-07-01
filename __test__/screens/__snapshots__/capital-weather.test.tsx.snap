@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen: Capital Weather Countries should be render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 5,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 50,
+          "height": 25,
+          "width": 25,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Temperature-0"
+    >
+      Temperature: 
+      15
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Precip-0"
+    >
+      Precip: 
+      0.2
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Wind-Speed-0"
+    >
+      Wind Speed: 
+      8
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Screen: Capital Weather renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 5,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 50,
+          "height": 25,
+          "width": 25,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Temperature-0"
+    >
+      Temperature: 
+      15
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Precip-0"
+    >
+      Precip: 
+      0.2
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "lineHeight": 20,
+        }
+      }
+      testID="Wind-Speed-0"
+    >
+      Wind Speed: 
+      8
+    </Text>
+  </View>
+</View>
+`;
